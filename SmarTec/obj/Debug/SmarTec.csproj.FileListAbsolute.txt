@@ -3,9 +3,9 @@ C:\Users\medin\Documents\Tecnologico\4 Semestre\TOPICOS AVANZADOS DE PROGRAMACIO
 C:\Users\medin\Documents\Tecnologico\4 Semestre\TOPICOS AVANZADOS DE PROGRAMACION\Tema 4\SmarTec\SmarTec\bin\Debug\SmarTec.pdb
 C:\Users\medin\Documents\Tecnologico\4 Semestre\TOPICOS AVANZADOS DE PROGRAMACION\Tema 4\SmarTec\SmarTec\obj\Debug\SmarTec.csproj.AssemblyReference.cache
 C:\Users\medin\Documents\Tecnologico\4 Semestre\TOPICOS AVANZADOS DE PROGRAMACION\Tema 4\SmarTec\SmarTec\obj\Debug\SmarTec.csproj.SuggestedBindingRedirects.cache
-C:\Users\medin\Documents\Tecnologico\4 Semestre\TOPICOS AVANZADOS DE PROGRAMACION\Tema 4\SmarTec\SmarTec\obj\Debug\SmarTec.Form1.resources
 C:\Users\medin\Documents\Tecnologico\4 Semestre\TOPICOS AVANZADOS DE PROGRAMACION\Tema 4\SmarTec\SmarTec\obj\Debug\SmarTec.Properties.Resources.resources
 C:\Users\medin\Documents\Tecnologico\4 Semestre\TOPICOS AVANZADOS DE PROGRAMACION\Tema 4\SmarTec\SmarTec\obj\Debug\SmarTec.csproj.GenerateResource.cache
 C:\Users\medin\Documents\Tecnologico\4 Semestre\TOPICOS AVANZADOS DE PROGRAMACION\Tema 4\SmarTec\SmarTec\obj\Debug\SmarTec.csproj.CoreCompileInputs.cache
 C:\Users\medin\Documents\Tecnologico\4 Semestre\TOPICOS AVANZADOS DE PROGRAMACION\Tema 4\SmarTec\SmarTec\obj\Debug\SmarTec.exe
 C:\Users\medin\Documents\Tecnologico\4 Semestre\TOPICOS AVANZADOS DE PROGRAMACION\Tema 4\SmarTec\SmarTec\obj\Debug\SmarTec.pdb
+C:\Users\medin\Documents\Tecnologico\4 Semestre\TOPICOS AVANZADOS DE PROGRAMACION\Tema 4\SmarTec\SmarTec\obj\Debug\SmarTec.SignUp.resources
