@@ -98,5 +98,11 @@
   <ItemGroup>
     <None Include="Resources\Sin título-1.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla %2816%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Img_Loging.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

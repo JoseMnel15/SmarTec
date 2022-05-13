@@ -63,9 +63,29 @@ namespace SmarTec.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_pantalla__16_ {
+            get {
+                object obj = ResourceManager.GetObject("Captura de pantalla (16)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap illustration_b51e44f8 {
             get {
                 object obj = ResourceManager.GetObject("illustration.b51e44f8", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Img_Loging {
+            get {
+                object obj = ResourceManager.GetObject("Img_Loging", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

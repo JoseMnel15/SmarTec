@@ -46,5 +46,59 @@ namespace SmarTec
         {
 
         }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void Email_Enter(object sender, EventArgs e)
+        {
+            if (Email.Text == "EMAIL")
+            {
+                Email.Text = "";
+                Email.ForeColor = Color.Black;
+
+                panele.BackColor = Color.Black;
+            }
+        }
+
+        private void Email_Leave(object sender, EventArgs e)
+        {
+            if (Email.Text == "")
+            {
+                Email.Text = "EMAIL";
+                Email.ForeColor = Color.Silver;
+
+                panele.BackColor = Color.Silver;
+            }
+        }
+
+        private void Pass_Enter(object sender, EventArgs e)
+        {
+            if (Pass.Text == "CONTRASEÑA")
+            {
+                Pass.Text = "";
+                Pass.ForeColor = Color.Black;
+
+                panelc.BackColor = Color.Black;
+            }
+        }
+
+        private void Pass_Leave(object sender, EventArgs e)
+        {
+            if (Pass.Text == "")
+            {
+                Pass.Text = "CONTRASEÑA";
+                Pass.ForeColor = Color.Silver;
+
+                panelc.BackColor = Color.Silver;
+            }
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            this.panelogin.Hide();
+        }
     }
 }
