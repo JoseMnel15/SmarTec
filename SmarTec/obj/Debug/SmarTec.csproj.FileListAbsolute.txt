@@ -9,3 +9,4 @@ C:\Users\medin\Documents\Tecnologico\4 Semestre\TOPICOS AVANZADOS DE PROGRAMACIO
 C:\Users\medin\Documents\Tecnologico\4 Semestre\TOPICOS AVANZADOS DE PROGRAMACION\Tema 4\SmarTec\SmarTec\obj\Debug\SmarTec.exe
 C:\Users\medin\Documents\Tecnologico\4 Semestre\TOPICOS AVANZADOS DE PROGRAMACION\Tema 4\SmarTec\SmarTec\obj\Debug\SmarTec.pdb
 C:\Users\medin\Documents\Tecnologico\4 Semestre\TOPICOS AVANZADOS DE PROGRAMACION\Tema 4\SmarTec\SmarTec\obj\Debug\SmarTec.SignUp.resources
+C:\Users\medin\Documents\Tecnologico\4 Semestre\TOPICOS AVANZADOS DE PROGRAMACION\Tema 4\SmarTec\SmarTec\obj\Debug\SmarTec.Carga.resources
