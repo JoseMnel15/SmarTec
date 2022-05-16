@@ -73,6 +73,16 @@ namespace SmarTec.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap baGame {
+            get {
+                object obj = ResourceManager.GetObject("baGame", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Captura_de_pantalla__16_ {
             get {
                 object obj = ResourceManager.GetObject("Captura de pantalla (16)", resourceCulture);
@@ -96,6 +106,36 @@ namespace SmarTec.Properties {
         internal static System.Drawing.Bitmap Colorful_Confetti_PNG_Transparent_Image1 {
             get {
                 object obj = ResourceManager.GetObject("Colorful-Confetti-PNG-Transparent-Image1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dibujos_animados_nina_feliz_43633_2893 {
+            get {
+                object obj = ResourceManager.GetObject("dibujos-animados-nina-feliz_43633-2893", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dibujos_animados_nina_feliz_43633_2893_preview_rev_1 {
+            get {
+                object obj = ResourceManager.GetObject("dibujos-animados-nina-feliz_43633-2893_preview_rev_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Elefante {
+            get {
+                object obj = ResourceManager.GetObject("Elefante", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -183,6 +223,46 @@ namespace SmarTec.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap img32 {
+            get {
+                object obj = ResourceManager.GetObject("img32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap istockphoto_862758302_1024x1024 {
+            get {
+                object obj = ResourceManager.GetObject("istockphoto-862758302-1024x1024", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap leon_feliz_dibujos_animados_aislado_sobre_fondo_blanco_29190_752 {
+            get {
+                object obj = ResourceManager.GetObject("leon-feliz-dibujos-animados-aislado-sobre-fondo-blanco_29190-752", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap lindo_perro_dibujos_animados_33070_2547 {
+            get {
+                object obj = ResourceManager.GetObject("lindo-perro-dibujos-animados_33070-2547", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Logo3_preview_rev_1 {
             get {
                 object obj = ResourceManager.GetObject("Logo3_preview_rev_1", resourceCulture);
@@ -196,6 +276,16 @@ namespace SmarTec.Properties {
         internal static System.Drawing.Bitmap Logo3_preview_rev_11 {
             get {
                 object obj = ResourceManager.GetObject("Logo3_preview_rev_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap nino_dibujos_animados_mochilas_33070_2015 {
+            get {
+                object obj = ResourceManager.GetObject("nino-dibujos-animados-mochilas_33070-2015", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

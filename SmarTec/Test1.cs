@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace SmarTec
 {
-    public partial class Test1 : Form
+    public partial class TestP : Form
     {
-        public Test1()
+        public TestP()
         {
             InitializeComponent();
         }
