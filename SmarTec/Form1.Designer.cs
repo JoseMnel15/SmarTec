@@ -40,8 +40,10 @@
             this.Pass = new System.Windows.Forms.TextBox();
             this.panelogin = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.panelre = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
+            this.btn_regis = new System.Windows.Forms.PictureBox();
             this.PassR = new System.Windows.Forms.TextBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.EdadR = new System.Windows.Forms.TextBox();
@@ -58,15 +60,13 @@
             this.panel7 = new System.Windows.Forms.Panel();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelogin.SuspendLayout();
-            this.panelre.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.panelre.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btn_regis)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -208,11 +208,22 @@
             this.label5.TabIndex = 6;
             this.label5.Text = "ENTRAR";
             // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox4.Image = global::SmarTec.Properties.Resources.Img_Loging;
+            this.pictureBox4.Location = new System.Drawing.Point(6, 330);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(392, 44);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 5;
+            this.pictureBox4.TabStop = false;
+            // 
             // panelre
             // 
             this.panelre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(244)))), ((int)(((byte)(230)))));
             this.panelre.Controls.Add(this.label6);
-            this.panelre.Controls.Add(this.pictureBox5);
+            this.panelre.Controls.Add(this.btn_regis);
             this.panelre.Controls.Add(this.PassR);
             this.panelre.Controls.Add(this.panel4);
             this.panelre.Controls.Add(this.EdadR);
@@ -246,6 +257,18 @@
             this.label6.Size = new System.Drawing.Size(136, 20);
             this.label6.TabIndex = 6;
             this.label6.Text = "REGISTRARME";
+            // 
+            // btn_regis
+            // 
+            this.btn_regis.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_regis.Image = global::SmarTec.Properties.Resources.Img_Loging;
+            this.btn_regis.Location = new System.Drawing.Point(6, 330);
+            this.btn_regis.Name = "btn_regis";
+            this.btn_regis.Size = new System.Drawing.Size(392, 44);
+            this.btn_regis.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btn_regis.TabIndex = 5;
+            this.btn_regis.TabStop = false;
+            this.btn_regis.Click += new System.EventHandler(this.btn_regis_Click);
             // 
             // PassR
             // 
@@ -420,28 +443,6 @@
             this.label8.Text = "INICIA SESION";
             this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox5.Image = global::SmarTec.Properties.Resources.Img_Loging;
-            this.pictureBox5.Location = new System.Drawing.Point(6, 330);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(392, 44);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 5;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox4.Image = global::SmarTec.Properties.Resources.Img_Loging;
-            this.pictureBox4.Location = new System.Drawing.Point(6, 330);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(392, 44);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 5;
-            this.pictureBox4.TabStop = false;
-            // 
             // pictureBox3
             // 
             this.pictureBox3.Image = global::SmarTec.Properties.Resources.Sin_título_1;
@@ -492,10 +493,10 @@
             this.Text = "Sign Up";
             this.panelogin.ResumeLayout(false);
             this.panelogin.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.panelre.ResumeLayout(false);
             this.panelre.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn_regis)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -524,7 +525,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Panel panelre;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox btn_regis;
         private System.Windows.Forms.TextBox PassR;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel6;

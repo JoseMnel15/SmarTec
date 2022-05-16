@@ -205,5 +205,26 @@ namespace SmarTec
                 panel4.BackColor = Color.Silver;
             }
         }
+
+        private void btn_regis_Click(object sender, EventArgs e)
+        {
+            if (NomR.Text == "NOMBRE" | Apep.Text == "APELLIDO PATERNO" | Apem.Text == "APELLIDO MATERNO" | EdadR.Text == "EDAD" | EmailR.Text == "EMAIL" | PassR.Text == "CONTRASEÑA")
+            {
+                MessageBox.Show("¡Error! Algunos campos no han sido llenados, ¡Llenelos!", "Confirmacion", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+            if (EdadR.Text == "EDAD")
+            {
+
+            }
+            else
+            {
+                int ed = int.Parse(EdadR.Text);
+                if (ed < 6 | ed>12)
+                {
+                    MessageBox.Show("¡Edad no permitida!", "Confirmacion", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+
+                }
+            }
+        }
     }
 }

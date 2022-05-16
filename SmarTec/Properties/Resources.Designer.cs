@@ -73,6 +73,26 @@ namespace SmarTec.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Colorful_Confetti_PNG_Transparent_Image {
+            get {
+                object obj = ResourceManager.GetObject("Colorful-Confetti-PNG-Transparent-Image", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Colorful_Confetti_PNG_Transparent_Image1 {
+            get {
+                object obj = ResourceManager.GetObject("Colorful-Confetti-PNG-Transparent-Image1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap illustration_b51e44f8 {
             get {
                 object obj = ResourceManager.GetObject("illustration.b51e44f8", resourceCulture);
@@ -96,6 +116,36 @@ namespace SmarTec.Properties {
         internal static System.Drawing.Bitmap image_processing20210427_19682_1d12g5z_preview_rev_1 {
             get {
                 object obj = ResourceManager.GetObject("image_processing20210427-19682-1d12g5z_preview_rev_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image_processing20210427_19682_1d12g5z_preview_rev_11 {
+            get {
+                object obj = ResourceManager.GetObject("image_processing20210427-19682-1d12g5z_preview_rev_11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image_processing20210427_19682_1d12g5z_preview_rev_12 {
+            get {
+                object obj = ResourceManager.GetObject("image_processing20210427-19682-1d12g5z_preview_rev_12", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image_processing20210427_19682_1d12g5z_preview_rev_13 {
+            get {
+                object obj = ResourceManager.GetObject("image_processing20210427-19682-1d12g5z_preview_rev_13", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
