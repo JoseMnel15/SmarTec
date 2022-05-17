@@ -63,6 +63,59 @@ namespace SmarTec.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _5_x_7_letras_y_numeros_la_tabla_de_multiplicar_del_5_11869310_preview_rev_1 {
+            get {
+                object obj = ResourceManager.GetObject("5-x-7-letras-y-numeros-la-tabla-de-multiplicar-del-5-11869310_preview_rev_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _61515383_manzana_linda_de_dibujos_animados_aislado_en_el_fondo_blanco_ilustración_vectorial {
+            get {
+                object obj = ResourceManager.GetObject("61515383-manzana-linda-de-dibujos-animados-aislado-en-el-fondo-blanco-ilustración" +
+                        "-vectorial", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _68874247_cute_sonriente_asiática_joven_estudiante_de_la_escuela_chica_apuntando_hacia_arriba_con_la_idea_ilus {
+            get {
+                object obj = ResourceManager.GetObject("68874247-cute-sonriente-asiática-joven-estudiante-de-la-escuela-chica-apuntando-h" +
+                        "acia-arriba-con-la-idea-ilus", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _68874247_cute_sonriente_asiática_joven_estudiante_de_la_escuela_chica_apuntando_hacia_arriba_con_la_idea_ilus_preview_rev_1 {
+            get {
+                object obj = ResourceManager.GetObject("68874247-cute-sonriente-asiática-joven-estudiante-de-la-escuela-chica-apuntando-h" +
+                        "acia-arriba-con-la-idea-ilus_preview_rev_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _95875aad_7d73_4e6e_9856_34960bea9461_alta_libre_aspect_ratio_default_0 {
+            get {
+                object obj = ResourceManager.GetObject("95875aad-7d73-4e6e-9856-34960bea9461_alta-libre-aspect-ratio_default_0", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ba {
             get {
                 object obj = ResourceManager.GetObject("ba", resourceCulture);
@@ -273,6 +326,26 @@ namespace SmarTec.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap istockphoto_1322251829_170667a {
+            get {
+                object obj = ResourceManager.GetObject("istockphoto-1322251829-170667a", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap istockphoto_1322251829_170667a1 {
+            get {
+                object obj = ResourceManager.GetObject("istockphoto-1322251829-170667a1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap istockphoto_862758302_1024x1024 {
             get {
                 object obj = ResourceManager.GetObject("istockphoto-862758302-1024x1024", resourceCulture);
@@ -356,6 +429,16 @@ namespace SmarTec.Properties {
         internal static System.Drawing.Bitmap nino_dibujos_animados_mochilas_33070_2015 {
             get {
                 object obj = ResourceManager.GetObject("nino-dibujos-animados-mochilas_33070-2015", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SERIES_NUMÉRICAS_COMPLETA_LOS_NÚMEROS_QUE_FALTAN6 {
+            get {
+                object obj = ResourceManager.GetObject("SERIES-NUMÉRICAS-COMPLETA-LOS-NÚMEROS-QUE-FALTAN6", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

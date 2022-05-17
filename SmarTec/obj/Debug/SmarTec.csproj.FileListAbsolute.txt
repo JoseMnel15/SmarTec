@@ -41,3 +41,8 @@ C:\Users\medin\Documents\Tecnologico\4 Semestre\TOPICOS AVANZADOS DE PROGRAMACIO
 C:\Users\medin\Documents\Tecnologico\4 Semestre\TOPICOS AVANZADOS DE PROGRAMACION\Tema 4\SmarTec\SmarTec\SmarTec\obj\Debug\SmarTec.TestP.resources
 C:\Users\medin\Documents\Tecnologico\4 Semestre\TOPICOS AVANZADOS DE PROGRAMACION\Tema 4\SmarTec\SmarTec\SmarTec\obj\Debug\SmarTec.GKT1.resources
 C:\Users\medin\Documents\Tecnologico\4 Semestre\TOPICOS AVANZADOS DE PROGRAMACION\Tema 4\SmarTec\SmarTec\SmarTec\obj\Debug\SmarTec.GVT1.resources
+C:\Users\medin\Documents\Tecnologico\4 Semestre\TOPICOS AVANZADOS DE PROGRAMACION\Tema 4\SmarTec\SmarTec\SmarTec\obj\Debug\SmarTec.GAT1.resources
+C:\Users\medin\Documents\Tecnologico\4 Semestre\TOPICOS AVANZADOS DE PROGRAMACION\Tema 4\SmarTec\SmarTec\SmarTec\obj\Debug\SmarTec.GAT2_1.resources
+C:\Users\medin\Documents\Tecnologico\4 Semestre\TOPICOS AVANZADOS DE PROGRAMACION\Tema 4\SmarTec\SmarTec\SmarTec\obj\Debug\SmarTec.GVT2_1.resources
+C:\Users\medin\Documents\Tecnologico\4 Semestre\TOPICOS AVANZADOS DE PROGRAMACION\Tema 4\SmarTec\SmarTec\SmarTec\obj\Debug\SmarTec.GKT2_1.resources
+C:\Users\medin\Documents\Tecnologico\4 Semestre\TOPICOS AVANZADOS DE PROGRAMACION\Tema 4\SmarTec\SmarTec\SmarTec\obj\Debug\SmarTec.Test2.resources

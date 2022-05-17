@@ -10,32 +10,33 @@ using System.Windows.Forms;
 
 namespace SmarTec
 {
-    public partial class GVT1 : Form
+    public partial class GAT1 : Form
     {
-        public GVT1()
+        public GAT1()
         {
             InitializeComponent();
         }
 
-        private void btn_regis_Click(object sender, EventArgs e)
+        private void label6_Click(object sender, EventArgs e)
         {
-            if (btn_correc3.Checked)
+            if (quesad.Text == "Quesadilla" | quesad.Text == "QUESADILLA" | quesad.Text == "quesadilla")
             {
                 MessageBox.Show("¡Perfecto! \n¡Has terminado todas tus lecciones! :)", "Confirmacion", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
             else
             {
                 MessageBox.Show("¡Opcion Incorrecta! \n Vuelva a intentarlo :(", "Confirmacion", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                quesad.Text = "";
             }
         }
 
-        private void label8_Click(object sender, EventArgs e)
+        private void label2_Click(object sender, EventArgs e)
         {
-            if (btn_correct2.Checked)
+            if (radioButton2.Checked)
             {
                 MessageBox.Show("¡Muy bien! Buen trabajo! :)", "Confirmacion", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                panelGVT2.Visible = false;
-                panelGVT1.Visible = true;
+                panelGAT2.Visible = false;
+                panelGAT1.Visible = true;
             }
             else
             {
@@ -43,14 +44,13 @@ namespace SmarTec
             }
         }
 
-        private void label9_Click(object sender, EventArgs e)
+        private void label7_Click(object sender, EventArgs e)
         {
-
-            if (btn_correc.Checked)
+            if (radioButton5.Checked)
             {
                 MessageBox.Show("¡Muy bien! Buen trabajo! :)", "Confirmacion", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-                panelGVT3.Visible = false;
-                panelGVT2.Visible = true;
+                panelGAT3.Visible = false;
+                panelGAT2.Visible = true;
             }
             else
             {

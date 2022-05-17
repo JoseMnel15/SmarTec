@@ -121,6 +121,9 @@
   <data name="img1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\img1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="image_processing20210427-19682-1d12g5z" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image_processing20210427-19682-1d12g5z.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="illustration.b51e44f8" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\illustration.b51e44f8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -130,11 +133,17 @@
   <data name="lindo-perro-dibujos-animados_33070-2547" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lindo-perro-dibujos-animados_33070-2547.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="68874247-cute-sonriente-asiática-joven-estudiante-de-la-escuela-chica-apuntando-hacia-arriba-con-la-idea-ilus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\68874247-cute-sonriente-asiática-joven-estudiante-de-la-escuela-chica-apuntando-hacia-arriba-con-la-idea-ilus.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Logo3_preview_rev_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Logo3_preview_rev_11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="istockphoto-862758302-1024x1024" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\istockphoto-862758302-1024x1024.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="5-x-7-letras-y-numeros-la-tabla-de-multiplicar-del-5-11869310_preview_rev_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5-x-7-letras-y-numeros-la-tabla-de-multiplicar-del-5-11869310_preview_rev_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="baGame" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\baGame.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="image_processing20210427-19682-1d12g5z_preview_rev_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\image_processing20210427-19682-1d12g5z_preview_rev_11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -142,14 +151,11 @@
   <data name="image_processing20210427-19682-1d12g5z_preview_rev_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\image_processing20210427-19682-1d12g5z_preview_rev_12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Elefante1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Elefante1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="baGame" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\baGame.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Captura de pantalla (16)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Captura de pantalla (16).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Captura de pantalla (17)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Captura de pantalla (17)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="nino-dibujos-animados-mochilas_33070-2015" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\nino-dibujos-animados-mochilas_33070-2015.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -157,8 +163,8 @@
   <data name="Singn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Singn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="image_processing20210427-19682-1d12g5z" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\image_processing20210427-19682-1d12g5z.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Elefante1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Elefante1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Captura de pantalla (17)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Captura de pantalla (17).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -175,6 +181,12 @@
   <data name="Img_Loging1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Img_Loging1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="suburb-street-cafe-map-seamless-streets-regular-rectangular-square-pattern-bistro-restaurants-house-blocks-flat-vector-211284061" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\suburb-street-cafe-map-seamless-streets-regular-rectangular-square-pattern-bistro-restaurants-house-blocks-flat-vector-211284061.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="68874247-cute-sonriente-asiática-joven-estudiante-de-la-escuela-chica-apuntando-hacia-arriba-con-la-idea-ilus_preview_rev_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\68874247-cute-sonriente-asiática-joven-estudiante-de-la-escuela-chica-apuntando-hacia-arriba-con-la-idea-ilus_preview_rev_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="dibujos-animados-nina-feliz_43633-2893" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dibujos-animados-nina-feliz_43633-2893.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -184,14 +196,17 @@
   <data name="leon-feliz-dibujos-animados-aislado-sobre-fondo-blanco_29190-7521" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\leon-feliz-dibujos-animados-aislado-sobre-fondo-blanco_29190-7521.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="suburb-street-cafe-map-seamless-streets-regular-rectangular-square-pattern-bistro-restaurants-house-blocks-flat-vector-211284061" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\suburb-street-cafe-map-seamless-streets-regular-rectangular-square-pattern-bistro-restaurants-house-blocks-flat-vector-211284061.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="istockphoto-862758302-1024x1024" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\istockphoto-862758302-1024x1024.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="image_processing20210427-19682-1d12g5z_preview_rev_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\image_processing20210427-19682-1d12g5z_preview_rev_13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="img32" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\img32.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="istockphoto-1322251829-170667a1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\istockphoto-1322251829-170667a1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="dibujos-animados-nina-feliz_43633-2893_preview_rev_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\dibujos-animados-nina-feliz_43633-2893_preview_rev_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -205,6 +220,9 @@
   <data name="Elefante" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Elefante.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="SERIES-NUMÉRICAS-COMPLETA-LOS-NÚMEROS-QUE-FALTAN6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SERIES-NUMÉRICAS-COMPLETA-LOS-NÚMEROS-QUE-FALTAN6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Img_Loging" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Img_Loging.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -217,7 +235,13 @@
   <data name="Colorful-Confetti-PNG-Transparent-Image1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Colorful-Confetti-PNG-Transparent-Image1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Captura de pantalla (17)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Captura de pantalla (17)1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="istockphoto-1322251829-170667a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\istockphoto-1322251829-170667a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="61515383-manzana-linda-de-dibujos-animados-aislado-en-el-fondo-blanco-ilustración-vectorial" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\61515383-manzana-linda-de-dibujos-animados-aislado-en-el-fondo-blanco-ilustración-vectorial.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="95875aad-7d73-4e6e-9856-34960bea9461_alta-libre-aspect-ratio_default_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\95875aad-7d73-4e6e-9856-34960bea9461_alta-libre-aspect-ratio_default_0.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
