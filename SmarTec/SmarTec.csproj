@@ -192,5 +192,32 @@
   <ItemGroup>
     <None Include="Resources\lindo-perro-dibujos-animados_33070-2547.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kt1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\suburb-street-cafe-map-seamless-streets-regular-rectangular-square-pattern-bistro-restaurants-house-blocks-flat-vector-211284061.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla %2817%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Img_Loging1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leon-feliz-dibujos-animados-aislado-sobre-fondo-blanco_29190-7521.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Elefante1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lindo-perro-dibujos-animados_33070-25471.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\suburb-street-cafe-map-seamless-streets-regular-rectangular-square-pattern-bistro-restaurants-house-blocks-flat-vector-2112840611.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla %2817%291.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

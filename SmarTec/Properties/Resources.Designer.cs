@@ -93,6 +93,26 @@ namespace SmarTec.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_pantalla__17_ {
+            get {
+                object obj = ResourceManager.GetObject("Captura de pantalla (17)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_pantalla__17_1 {
+            get {
+                object obj = ResourceManager.GetObject("Captura de pantalla (17)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Colorful_Confetti_PNG_Transparent_Image {
             get {
                 object obj = ResourceManager.GetObject("Colorful-Confetti-PNG-Transparent-Image", resourceCulture);
@@ -136,6 +156,16 @@ namespace SmarTec.Properties {
         internal static System.Drawing.Bitmap Elefante {
             get {
                 object obj = ResourceManager.GetObject("Elefante", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Elefante1 {
+            get {
+                object obj = ResourceManager.GetObject("Elefante1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -213,6 +243,16 @@ namespace SmarTec.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Img_Loging1 {
+            get {
+                object obj = ResourceManager.GetObject("Img_Loging1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap img1 {
             get {
                 object obj = ResourceManager.GetObject("img1", resourceCulture);
@@ -243,6 +283,16 @@ namespace SmarTec.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap kt1 {
+            get {
+                object obj = ResourceManager.GetObject("kt1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap leon_feliz_dibujos_animados_aislado_sobre_fondo_blanco_29190_752 {
             get {
                 object obj = ResourceManager.GetObject("leon-feliz-dibujos-animados-aislado-sobre-fondo-blanco_29190-752", resourceCulture);
@@ -253,9 +303,29 @@ namespace SmarTec.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap leon_feliz_dibujos_animados_aislado_sobre_fondo_blanco_29190_7521 {
+            get {
+                object obj = ResourceManager.GetObject("leon-feliz-dibujos-animados-aislado-sobre-fondo-blanco_29190-7521", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap lindo_perro_dibujos_animados_33070_2547 {
             get {
                 object obj = ResourceManager.GetObject("lindo-perro-dibujos-animados_33070-2547", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap lindo_perro_dibujos_animados_33070_25471 {
+            get {
+                object obj = ResourceManager.GetObject("lindo-perro-dibujos-animados_33070-25471", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -306,6 +376,28 @@ namespace SmarTec.Properties {
         internal static System.Drawing.Bitmap Singn {
             get {
                 object obj = ResourceManager.GetObject("Singn", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap suburb_street_cafe_map_seamless_streets_regular_rectangular_square_pattern_bistro_restaurants_house_blocks_flat_vector_211284061 {
+            get {
+                object obj = ResourceManager.GetObject("suburb-street-cafe-map-seamless-streets-regular-rectangular-square-pattern-bistro" +
+                        "-restaurants-house-blocks-flat-vector-211284061", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap suburb_street_cafe_map_seamless_streets_regular_rectangular_square_pattern_bistro_restaurants_house_blocks_flat_vector_2112840611 {
+            get {
+                object obj = ResourceManager.GetObject("suburb-street-cafe-map-seamless-streets-regular-rectangular-square-pattern-bistro" +
+                        "-restaurants-house-blocks-flat-vector-2112840611", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
