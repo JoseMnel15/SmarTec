@@ -16,7 +16,7 @@ namespace SmarTec
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new TestP());
+            Application.Run(new Test2());
         }
     }
 }

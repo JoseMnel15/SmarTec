@@ -207,5 +207,40 @@ namespace SmarTec
                 panelT2.Visible = true;
             }
         }
+
+        private void label30_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label29_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label31_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton24_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton23_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton22_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
