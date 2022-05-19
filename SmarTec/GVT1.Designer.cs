@@ -31,21 +31,21 @@
             this.panelGVT1 = new System.Windows.Forms.Panel();
             this.panelGVT2 = new System.Windows.Forms.Panel();
             this.panelGVT3 = new System.Windows.Forms.Panel();
-            this.radioButton8 = new System.Windows.Forms.RadioButton();
-            this.radioButton7 = new System.Windows.Forms.RadioButton();
+            this.rblu = new System.Windows.Forms.RadioButton();
+            this.ragre = new System.Windows.Forms.RadioButton();
             this.btn_correc = new System.Windows.Forms.RadioButton();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.pictureBox15 = new System.Windows.Forms.PictureBox();
-            this.pictureBox16 = new System.Windows.Forms.PictureBox();
-            this.pictureBox17 = new System.Windows.Forms.PictureBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.pictureBox18 = new System.Windows.Forms.PictureBox();
+            this.blue = new System.Windows.Forms.Panel();
+            this.green = new System.Windows.Forms.Panel();
+            this.rojo = new System.Windows.Forms.Panel();
+            this.texto = new System.Windows.Forms.Label();
+            this.btn_ne = new System.Windows.Forms.Label();
+            this.btn = new System.Windows.Forms.PictureBox();
+            this.img2 = new System.Windows.Forms.PictureBox();
+            this.img1 = new System.Windows.Forms.PictureBox();
+            this.pregunta = new System.Windows.Forms.Label();
+            this.instrucc = new System.Windows.Forms.Label();
+            this.welcome = new System.Windows.Forms.Label();
+            this.banner = new System.Windows.Forms.PictureBox();
             this.radioButton6 = new System.Windows.Forms.RadioButton();
             this.btn_correct2 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
@@ -76,10 +76,10 @@
             this.panelGVT1.SuspendLayout();
             this.panelGVT2.SuspendLayout();
             this.panelGVT3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.banner)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -142,48 +142,48 @@
             // 
             // panelGVT3
             // 
-            this.panelGVT3.Controls.Add(this.radioButton8);
-            this.panelGVT3.Controls.Add(this.radioButton7);
+            this.panelGVT3.Controls.Add(this.rblu);
+            this.panelGVT3.Controls.Add(this.ragre);
             this.panelGVT3.Controls.Add(this.btn_correc);
-            this.panelGVT3.Controls.Add(this.panel3);
-            this.panelGVT3.Controls.Add(this.panel2);
-            this.panelGVT3.Controls.Add(this.panel1);
-            this.panelGVT3.Controls.Add(this.label13);
-            this.panelGVT3.Controls.Add(this.label9);
-            this.panelGVT3.Controls.Add(this.pictureBox15);
-            this.panelGVT3.Controls.Add(this.pictureBox16);
-            this.panelGVT3.Controls.Add(this.pictureBox17);
-            this.panelGVT3.Controls.Add(this.label10);
-            this.panelGVT3.Controls.Add(this.label11);
-            this.panelGVT3.Controls.Add(this.label12);
-            this.panelGVT3.Controls.Add(this.pictureBox18);
+            this.panelGVT3.Controls.Add(this.blue);
+            this.panelGVT3.Controls.Add(this.green);
+            this.panelGVT3.Controls.Add(this.rojo);
+            this.panelGVT3.Controls.Add(this.texto);
+            this.panelGVT3.Controls.Add(this.btn_ne);
+            this.panelGVT3.Controls.Add(this.btn);
+            this.panelGVT3.Controls.Add(this.img2);
+            this.panelGVT3.Controls.Add(this.img1);
+            this.panelGVT3.Controls.Add(this.pregunta);
+            this.panelGVT3.Controls.Add(this.instrucc);
+            this.panelGVT3.Controls.Add(this.welcome);
+            this.panelGVT3.Controls.Add(this.banner);
             this.panelGVT3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelGVT3.Location = new System.Drawing.Point(0, 0);
             this.panelGVT3.Name = "panelGVT3";
             this.panelGVT3.Size = new System.Drawing.Size(1354, 763);
             this.panelGVT3.TabIndex = 50;
             // 
-            // radioButton8
+            // rblu
             // 
-            this.radioButton8.AutoSize = true;
-            this.radioButton8.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.radioButton8.Location = new System.Drawing.Point(982, 572);
-            this.radioButton8.Name = "radioButton8";
-            this.radioButton8.Size = new System.Drawing.Size(17, 16);
-            this.radioButton8.TabIndex = 60;
-            this.radioButton8.TabStop = true;
-            this.radioButton8.UseVisualStyleBackColor = true;
+            this.rblu.AutoSize = true;
+            this.rblu.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.rblu.Location = new System.Drawing.Point(982, 572);
+            this.rblu.Name = "rblu";
+            this.rblu.Size = new System.Drawing.Size(17, 16);
+            this.rblu.TabIndex = 60;
+            this.rblu.TabStop = true;
+            this.rblu.UseVisualStyleBackColor = true;
             // 
-            // radioButton7
+            // ragre
             // 
-            this.radioButton7.AutoSize = true;
-            this.radioButton7.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.radioButton7.Location = new System.Drawing.Point(695, 572);
-            this.radioButton7.Name = "radioButton7";
-            this.radioButton7.Size = new System.Drawing.Size(17, 16);
-            this.radioButton7.TabIndex = 60;
-            this.radioButton7.TabStop = true;
-            this.radioButton7.UseVisualStyleBackColor = true;
+            this.ragre.AutoSize = true;
+            this.ragre.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ragre.Location = new System.Drawing.Point(695, 572);
+            this.ragre.Name = "ragre";
+            this.ragre.Size = new System.Drawing.Size(17, 16);
+            this.ragre.TabIndex = 60;
+            this.ragre.TabStop = true;
+            this.ragre.UseVisualStyleBackColor = true;
             // 
             // btn_correc
             // 
@@ -196,129 +196,129 @@
             this.btn_correc.TabStop = true;
             this.btn_correc.UseVisualStyleBackColor = true;
             // 
-            // panel3
+            // blue
             // 
-            this.panel3.BackColor = System.Drawing.Color.Blue;
-            this.panel3.Location = new System.Drawing.Point(882, 365);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(200, 200);
-            this.panel3.TabIndex = 59;
+            this.blue.BackColor = System.Drawing.Color.Blue;
+            this.blue.Location = new System.Drawing.Point(882, 365);
+            this.blue.Name = "blue";
+            this.blue.Size = new System.Drawing.Size(200, 200);
+            this.blue.TabIndex = 59;
             // 
-            // panel2
+            // green
             // 
-            this.panel2.BackColor = System.Drawing.Color.Green;
-            this.panel2.Location = new System.Drawing.Point(600, 365);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(200, 200);
-            this.panel2.TabIndex = 59;
+            this.green.BackColor = System.Drawing.Color.Green;
+            this.green.Location = new System.Drawing.Point(600, 365);
+            this.green.Name = "green";
+            this.green.Size = new System.Drawing.Size(200, 200);
+            this.green.TabIndex = 59;
             // 
-            // panel1
+            // rojo
             // 
-            this.panel1.BackColor = System.Drawing.Color.Red;
-            this.panel1.Location = new System.Drawing.Point(298, 364);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(200, 200);
-            this.panel1.TabIndex = 59;
+            this.rojo.BackColor = System.Drawing.Color.Red;
+            this.rojo.Location = new System.Drawing.Point(298, 364);
+            this.rojo.Name = "rojo";
+            this.rojo.Size = new System.Drawing.Size(200, 200);
+            this.rojo.TabIndex = 59;
             // 
-            // label13
+            // texto
             // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Roboto", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.Color.Blue;
-            this.label13.Location = new System.Drawing.Point(602, 275);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(184, 72);
-            this.label13.TabIndex = 58;
-            this.label13.Text = "ROJO";
+            this.texto.AutoSize = true;
+            this.texto.Font = new System.Drawing.Font("Roboto", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.texto.ForeColor = System.Drawing.Color.Blue;
+            this.texto.Location = new System.Drawing.Point(602, 275);
+            this.texto.Name = "texto";
+            this.texto.Size = new System.Drawing.Size(184, 72);
+            this.texto.TabIndex = 58;
+            this.texto.Text = "ROJO";
             // 
-            // label9
+            // btn_ne
             // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(113)))), ((int)(((byte)(214)))));
-            this.label9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label9.Font = new System.Drawing.Font("Roboto Medium", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(636, 710);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(103, 20);
-            this.label9.TabIndex = 57;
-            this.label9.Text = "SIGUIENTE";
-            this.label9.Click += new System.EventHandler(this.label9_Click);
+            this.btn_ne.AutoSize = true;
+            this.btn_ne.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(113)))), ((int)(((byte)(214)))));
+            this.btn_ne.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_ne.Font = new System.Drawing.Font("Roboto Medium", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_ne.ForeColor = System.Drawing.Color.White;
+            this.btn_ne.Location = new System.Drawing.Point(636, 710);
+            this.btn_ne.Name = "btn_ne";
+            this.btn_ne.Size = new System.Drawing.Size(103, 20);
+            this.btn_ne.TabIndex = 57;
+            this.btn_ne.Text = "SIGUIENTE";
+            this.btn_ne.Click += new System.EventHandler(this.label9_Click);
             // 
-            // pictureBox15
+            // btn
             // 
-            this.pictureBox15.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox15.Image = global::SmarTec.Properties.Resources.Img_Loging;
-            this.pictureBox15.Location = new System.Drawing.Point(492, 698);
-            this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(392, 44);
-            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox15.TabIndex = 56;
-            this.pictureBox15.TabStop = false;
+            this.btn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn.Image = global::SmarTec.Properties.Resources.Img_Loging;
+            this.btn.Location = new System.Drawing.Point(492, 698);
+            this.btn.Name = "btn";
+            this.btn.Size = new System.Drawing.Size(392, 44);
+            this.btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btn.TabIndex = 56;
+            this.btn.TabStop = false;
             // 
-            // pictureBox16
+            // img2
             // 
-            this.pictureBox16.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox16.Image = global::SmarTec.Properties.Resources.dibujos_animados_nina_feliz_43633_2893_preview_rev_1;
-            this.pictureBox16.Location = new System.Drawing.Point(1143, 109);
-            this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(180, 251);
-            this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox16.TabIndex = 55;
-            this.pictureBox16.TabStop = false;
+            this.img2.BackColor = System.Drawing.Color.Transparent;
+            this.img2.Image = global::SmarTec.Properties.Resources.dibujos_animados_nina_feliz_43633_2893_preview_rev_1;
+            this.img2.Location = new System.Drawing.Point(1143, 109);
+            this.img2.Name = "img2";
+            this.img2.Size = new System.Drawing.Size(180, 251);
+            this.img2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.img2.TabIndex = 55;
+            this.img2.TabStop = false;
             // 
-            // pictureBox17
+            // img1
             // 
-            this.pictureBox17.Image = global::SmarTec.Properties.Resources.nino_dibujos_animados_mochilas_33070_2015;
-            this.pictureBox17.Location = new System.Drawing.Point(31, 109);
-            this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(180, 251);
-            this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox17.TabIndex = 54;
-            this.pictureBox17.TabStop = false;
+            this.img1.Image = global::SmarTec.Properties.Resources.nino_dibujos_animados_mochilas_33070_2015;
+            this.img1.Location = new System.Drawing.Point(31, 109);
+            this.img1.Name = "img1";
+            this.img1.Size = new System.Drawing.Size(180, 251);
+            this.img1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.img1.TabIndex = 54;
+            this.img1.TabStop = false;
             // 
-            // label10
+            // pregunta
             // 
-            this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.White;
-            this.label10.Font = new System.Drawing.Font("Roboto", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(405, 193);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(587, 39);
-            this.label10.TabIndex = 53;
-            this.label10.Text = "Selecciona el color que dice la imagen";
+            this.pregunta.AutoSize = true;
+            this.pregunta.BackColor = System.Drawing.Color.White;
+            this.pregunta.Font = new System.Drawing.Font("Roboto", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pregunta.Location = new System.Drawing.Point(405, 193);
+            this.pregunta.Name = "pregunta";
+            this.pregunta.Size = new System.Drawing.Size(587, 39);
+            this.pregunta.TabIndex = 53;
+            this.pregunta.Text = "Selecciona el color que dice la imagen";
             // 
-            // label11
+            // instrucc
             // 
-            this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.White;
-            this.label11.Font = new System.Drawing.Font("Roboto", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(544, 85);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(287, 28);
-            this.label11.TabIndex = 52;
-            this.label11.Text = "Completa lo que se te pide";
+            this.instrucc.AutoSize = true;
+            this.instrucc.BackColor = System.Drawing.Color.White;
+            this.instrucc.Font = new System.Drawing.Font("Roboto", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.instrucc.Location = new System.Drawing.Point(544, 85);
+            this.instrucc.Name = "instrucc";
+            this.instrucc.Size = new System.Drawing.Size(287, 28);
+            this.instrucc.TabIndex = 52;
+            this.instrucc.Text = "Completa lo que se te pide";
             // 
-            // label12
+            // welcome
             // 
-            this.label12.AutoSize = true;
-            this.label12.BackColor = System.Drawing.Color.White;
-            this.label12.Font = new System.Drawing.Font("Roboto", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(481, 41);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(416, 34);
-            this.label12.TabIndex = 51;
-            this.label12.Text = "¡Carlos tu aprendizaje es Visual!";
+            this.welcome.AutoSize = true;
+            this.welcome.BackColor = System.Drawing.Color.White;
+            this.welcome.Font = new System.Drawing.Font("Roboto", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.welcome.Location = new System.Drawing.Point(481, 41);
+            this.welcome.Name = "welcome";
+            this.welcome.Size = new System.Drawing.Size(416, 34);
+            this.welcome.TabIndex = 51;
+            this.welcome.Text = "¡Carlos tu aprendizaje es Visual!";
             // 
-            // pictureBox18
+            // banner
             // 
-            this.pictureBox18.Image = global::SmarTec.Properties.Resources.baGame;
-            this.pictureBox18.Location = new System.Drawing.Point(78, 2);
-            this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(1245, 267);
-            this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox18.TabIndex = 50;
-            this.pictureBox18.TabStop = false;
+            this.banner.Image = global::SmarTec.Properties.Resources.baGame;
+            this.banner.Location = new System.Drawing.Point(78, 2);
+            this.banner.Name = "banner";
+            this.banner.Size = new System.Drawing.Size(1245, 267);
+            this.banner.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.banner.TabIndex = 50;
+            this.banner.TabStop = false;
             // 
             // radioButton6
             // 
@@ -639,10 +639,10 @@
             this.panelGVT2.PerformLayout();
             this.panelGVT3.ResumeLayout(false);
             this.panelGVT3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btn)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.banner)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
@@ -691,20 +691,20 @@
         private System.Windows.Forms.RadioButton btn_correct2;
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.Panel panelGVT3;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.PictureBox pictureBox15;
-        private System.Windows.Forms.PictureBox pictureBox16;
-        private System.Windows.Forms.PictureBox pictureBox17;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.PictureBox pictureBox18;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.RadioButton radioButton8;
-        private System.Windows.Forms.RadioButton radioButton7;
+        private System.Windows.Forms.Label btn_ne;
+        private System.Windows.Forms.PictureBox btn;
+        private System.Windows.Forms.PictureBox img2;
+        private System.Windows.Forms.PictureBox img1;
+        private System.Windows.Forms.Label pregunta;
+        private System.Windows.Forms.Label instrucc;
+        private System.Windows.Forms.Label welcome;
+        private System.Windows.Forms.PictureBox banner;
+        private System.Windows.Forms.Label texto;
+        private System.Windows.Forms.Panel blue;
+        private System.Windows.Forms.Panel green;
+        private System.Windows.Forms.Panel rojo;
+        private System.Windows.Forms.RadioButton rblu;
+        private System.Windows.Forms.RadioButton ragre;
         private System.Windows.Forms.RadioButton btn_correc;
     }
 }

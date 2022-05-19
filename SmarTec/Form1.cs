@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +13,7 @@ namespace SmarTec
 {
     public partial class SignUp : Form
     {
+        Operaciones op = new Operaciones();
         public SignUp()
         {
             InitializeComponent();
@@ -211,20 +213,70 @@ namespace SmarTec
             if (NomR.Text == "NOMBRE" | Apep.Text == "APELLIDO PATERNO" | Apem.Text == "APELLIDO MATERNO" | EdadR.Text == "EDAD" | EmailR.Text == "EMAIL" | PassR.Text == "CONTRASEÑA")
             {
                 MessageBox.Show("¡Error! Algunos campos no han sido llenados, ¡Llenelos!", "Confirmacion", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-            }
-            if (EdadR.Text == "EDAD")
-            {
 
             }
             else
             {
                 int ed = int.Parse(EdadR.Text);
-                if (ed < 6 | ed>12)
+                if (ed < 6 | ed > 12)
                 {
                     MessageBox.Show("¡Edad no permitida!", "Confirmacion", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                }
 
+                if (ed >= 6 && ed <= 8 | ed >= 9 && ed <= 12)
+                {
+                    int registra = 0;
+
+                    registra = op.Registradatos(NomR.Text, Apep.Text, Apem.Text, int.Parse(EdadR.Text), EmailR.Text, PassR.Text);
+                    if (registra > 0)
+                    {
+                        MessageBox.Show("Usuario Registrado", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
                 }
             }
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            op.ConectarBD();
+
+            op.conectarapp.Open();
+
+            if (Email.Text == "EMAIL" && Pass.Text == "")
+            {
+                MessageBox.Show("¡Error! Algunos campos no han sido llenados, ¡Llenelos!", "Confirmacion", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+            else
+            {
+                String email = Email.Text;
+                String contra = Pass.Text;
+                String nombre = op.sacNom(email, contra);
+                String edad = op.sacEd(nombre);
+
+                int ed = int.Parse(edad);
+
+                MessageBox.Show("¡Bienvenido! " + nombre, "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                if (ed >= 6 && ed <= 8)
+                {
+                    new TestP().Show();
+                    new Carga().Show();
+                    this.Hide();
+                }
+                if (ed >= 9 && ed <= 12)
+                {
+                    new Test2().Show();
+                    new Carga().Show();
+                    this.Hide();
+
+                }
+                op.conectarapp.Close();
+            }
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

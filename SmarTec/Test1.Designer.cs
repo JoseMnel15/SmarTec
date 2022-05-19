@@ -36,13 +36,14 @@
             this.panelT3 = new System.Windows.Forms.Panel();
             this.panelT2 = new System.Windows.Forms.Panel();
             this.panelT1 = new System.Windows.Forms.Panel();
-            this.radioButton22 = new System.Windows.Forms.RadioButton();
-            this.radioButton23 = new System.Windows.Forms.RadioButton();
-            this.radioButton24 = new System.Windows.Forms.RadioButton();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
+            this.r3 = new System.Windows.Forms.RadioButton();
+            this.r2 = new System.Windows.Forms.RadioButton();
+            this.r1 = new System.Windows.Forms.RadioButton();
+            this.btn_next = new System.Windows.Forms.Label();
+            this.indi = new System.Windows.Forms.Label();
+            this.wel = new System.Windows.Forms.Label();
+            this.pregu = new System.Windows.Forms.Label();
+            this.img1 = new System.Windows.Forms.PictureBox();
             this.radioButton19 = new System.Windows.Forms.RadioButton();
             this.radioButton20 = new System.Windows.Forms.RadioButton();
             this.radioButton21 = new System.Windows.Forms.RadioButton();
@@ -50,6 +51,7 @@
             this.label25 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.radioButton16 = new System.Windows.Forms.RadioButton();
             this.radioButton17 = new System.Windows.Forms.RadioButton();
             this.radioButton18 = new System.Windows.Forms.RadioButton();
@@ -57,6 +59,7 @@
             this.label21 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.label23 = new System.Windows.Forms.Label();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.radioButton13 = new System.Windows.Forms.RadioButton();
             this.radioButton14 = new System.Windows.Forms.RadioButton();
             this.radioButton15 = new System.Windows.Forms.RadioButton();
@@ -64,6 +67,7 @@
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.radioButton10 = new System.Windows.Forms.RadioButton();
             this.radioButton11 = new System.Windows.Forms.RadioButton();
             this.radioButton12 = new System.Windows.Forms.RadioButton();
@@ -71,6 +75,7 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.radioButton7 = new System.Windows.Forms.RadioButton();
             this.radioButton8 = new System.Windows.Forms.RadioButton();
             this.radioButton9 = new System.Windows.Forms.RadioButton();
@@ -78,6 +83,7 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.radioButton5 = new System.Windows.Forms.RadioButton();
             this.radioButton6 = new System.Windows.Forms.RadioButton();
@@ -85,6 +91,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
@@ -92,13 +99,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelT8.SuspendLayout();
             this.panelT7.SuspendLayout();
@@ -108,7 +108,7 @@
             this.panelT3.SuspendLayout();
             this.panelT2.SuspendLayout();
             this.panelT1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -239,114 +239,126 @@
             // 
             // panelT1
             // 
-            this.panelT1.Controls.Add(this.radioButton22);
-            this.panelT1.Controls.Add(this.radioButton23);
-            this.panelT1.Controls.Add(this.radioButton24);
-            this.panelT1.Controls.Add(this.label28);
-            this.panelT1.Controls.Add(this.label29);
-            this.panelT1.Controls.Add(this.label30);
-            this.panelT1.Controls.Add(this.label31);
-            this.panelT1.Controls.Add(this.pictureBox8);
+            this.panelT1.Controls.Add(this.r3);
+            this.panelT1.Controls.Add(this.r2);
+            this.panelT1.Controls.Add(this.r1);
+            this.panelT1.Controls.Add(this.btn_next);
+            this.panelT1.Controls.Add(this.indi);
+            this.panelT1.Controls.Add(this.wel);
+            this.panelT1.Controls.Add(this.pregu);
+            this.panelT1.Controls.Add(this.img1);
             this.panelT1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelT1.Location = new System.Drawing.Point(0, 0);
             this.panelT1.Name = "panelT1";
             this.panelT1.Size = new System.Drawing.Size(1354, 763);
             this.panelT1.TabIndex = 79;
             // 
-            // radioButton22
+            // r3
             // 
-            this.radioButton22.AutoSize = true;
-            this.radioButton22.BackColor = System.Drawing.Color.White;
-            this.radioButton22.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.radioButton22.Font = new System.Drawing.Font("Roboto", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton22.Location = new System.Drawing.Point(562, 553);
-            this.radioButton22.Name = "radioButton22";
-            this.radioButton22.Size = new System.Drawing.Size(211, 43);
-            this.radioButton22.TabIndex = 84;
-            this.radioButton22.TabStop = true;
-            this.radioButton22.Text = "Las Piñatas";
-            this.radioButton22.UseVisualStyleBackColor = false;
-            this.radioButton22.CheckedChanged += new System.EventHandler(this.radioButton22_CheckedChanged);
+            this.r3.AutoSize = true;
+            this.r3.BackColor = System.Drawing.Color.White;
+            this.r3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.r3.Font = new System.Drawing.Font("Roboto", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r3.Location = new System.Drawing.Point(562, 553);
+            this.r3.Name = "r3";
+            this.r3.Size = new System.Drawing.Size(211, 43);
+            this.r3.TabIndex = 84;
+            this.r3.TabStop = true;
+            this.r3.Text = "Las Piñatas";
+            this.r3.UseVisualStyleBackColor = false;
+            this.r3.CheckedChanged += new System.EventHandler(this.radioButton22_CheckedChanged);
             // 
-            // radioButton23
+            // r2
             // 
-            this.radioButton23.AutoSize = true;
-            this.radioButton23.BackColor = System.Drawing.Color.White;
-            this.radioButton23.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.radioButton23.Font = new System.Drawing.Font("Roboto", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton23.Location = new System.Drawing.Point(536, 466);
-            this.radioButton23.Name = "radioButton23";
-            this.radioButton23.Size = new System.Drawing.Size(255, 43);
-            this.radioButton23.TabIndex = 85;
-            this.radioButton23.TabStop = true;
-            this.radioButton23.Text = "Las Mañanitas";
-            this.radioButton23.UseVisualStyleBackColor = false;
-            this.radioButton23.CheckedChanged += new System.EventHandler(this.radioButton23_CheckedChanged);
+            this.r2.AutoSize = true;
+            this.r2.BackColor = System.Drawing.Color.White;
+            this.r2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.r2.Font = new System.Drawing.Font("Roboto", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r2.Location = new System.Drawing.Point(536, 466);
+            this.r2.Name = "r2";
+            this.r2.Size = new System.Drawing.Size(255, 43);
+            this.r2.TabIndex = 85;
+            this.r2.TabStop = true;
+            this.r2.Text = "Las Mañanitas";
+            this.r2.UseVisualStyleBackColor = false;
+            this.r2.CheckedChanged += new System.EventHandler(this.radioButton23_CheckedChanged);
             // 
-            // radioButton24
+            // r1
             // 
-            this.radioButton24.AutoSize = true;
-            this.radioButton24.BackColor = System.Drawing.Color.White;
-            this.radioButton24.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.radioButton24.Font = new System.Drawing.Font("Roboto", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radioButton24.Location = new System.Drawing.Point(545, 380);
-            this.radioButton24.Name = "radioButton24";
-            this.radioButton24.Size = new System.Drawing.Size(226, 43);
-            this.radioButton24.TabIndex = 86;
-            this.radioButton24.TabStop = true;
-            this.radioButton24.Text = "Los Adornos";
-            this.radioButton24.UseVisualStyleBackColor = false;
-            this.radioButton24.CheckedChanged += new System.EventHandler(this.radioButton24_CheckedChanged);
+            this.r1.AutoSize = true;
+            this.r1.BackColor = System.Drawing.Color.White;
+            this.r1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.r1.Font = new System.Drawing.Font("Roboto", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r1.Location = new System.Drawing.Point(545, 380);
+            this.r1.Name = "r1";
+            this.r1.Size = new System.Drawing.Size(226, 43);
+            this.r1.TabIndex = 86;
+            this.r1.TabStop = true;
+            this.r1.Text = "Los Adornos";
+            this.r1.UseVisualStyleBackColor = false;
+            this.r1.CheckedChanged += new System.EventHandler(this.radioButton24_CheckedChanged);
             // 
-            // label28
+            // btn_next
             // 
-            this.label28.AutoSize = true;
-            this.label28.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(177)))), ((int)(((byte)(128)))));
-            this.label28.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label28.Font = new System.Drawing.Font("Roboto", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.ForeColor = System.Drawing.Color.White;
-            this.label28.Location = new System.Drawing.Point(600, 656);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(154, 34);
-            this.label28.TabIndex = 83;
-            this.label28.Text = "SIGUIENTE";
-            this.label28.Click += new System.EventHandler(this.label28_Click);
+            this.btn_next.AutoSize = true;
+            this.btn_next.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(177)))), ((int)(((byte)(128)))));
+            this.btn_next.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_next.Font = new System.Drawing.Font("Roboto", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_next.ForeColor = System.Drawing.Color.White;
+            this.btn_next.Location = new System.Drawing.Point(600, 656);
+            this.btn_next.Name = "btn_next";
+            this.btn_next.Size = new System.Drawing.Size(154, 34);
+            this.btn_next.TabIndex = 83;
+            this.btn_next.Text = "SIGUIENTE";
+            this.btn_next.Click += new System.EventHandler(this.label28_Click);
             // 
-            // label29
+            // indi
             // 
-            this.label29.AutoSize = true;
-            this.label29.BackColor = System.Drawing.Color.White;
-            this.label29.Font = new System.Drawing.Font("Roboto", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.Location = new System.Drawing.Point(486, 91);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(363, 28);
-            this.label29.TabIndex = 81;
-            this.label29.Text = "Selecciona la opcion de tu agrado";
-            this.label29.Click += new System.EventHandler(this.label29_Click);
+            this.indi.AutoSize = true;
+            this.indi.BackColor = System.Drawing.Color.White;
+            this.indi.Font = new System.Drawing.Font("Roboto", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.indi.Location = new System.Drawing.Point(486, 91);
+            this.indi.Name = "indi";
+            this.indi.Size = new System.Drawing.Size(363, 28);
+            this.indi.TabIndex = 81;
+            this.indi.Text = "Selecciona la opcion de tu agrado";
+            this.indi.Click += new System.EventHandler(this.label29_Click);
             // 
-            // label30
+            // wel
             // 
-            this.label30.AutoSize = true;
-            this.label30.BackColor = System.Drawing.Color.White;
-            this.label30.Font = new System.Drawing.Font("Roboto", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.Location = new System.Drawing.Point(488, 42);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(356, 34);
-            this.label30.TabIndex = 82;
-            this.label30.Text = "Bienvenido Carlos a tu Test";
-            this.label30.Click += new System.EventHandler(this.label30_Click);
+            this.wel.AutoSize = true;
+            this.wel.BackColor = System.Drawing.Color.White;
+            this.wel.Font = new System.Drawing.Font("Roboto", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.wel.Location = new System.Drawing.Point(488, 42);
+            this.wel.Name = "wel";
+            this.wel.Size = new System.Drawing.Size(356, 34);
+            this.wel.TabIndex = 82;
+            this.wel.Text = "Bienvenido Carlos a tu Test";
+            this.wel.Click += new System.EventHandler(this.label30_Click);
             // 
-            // label31
+            // pregu
             // 
-            this.label31.AutoSize = true;
-            this.label31.BackColor = System.Drawing.Color.White;
-            this.label31.Font = new System.Drawing.Font("Roboto", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label31.Location = new System.Drawing.Point(393, 181);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(588, 39);
-            this.label31.TabIndex = 80;
-            this.label31.Text = "En tu cumpleaños, ¿Que te gusta mas?";
-            this.label31.Click += new System.EventHandler(this.label31_Click);
+            this.pregu.AutoSize = true;
+            this.pregu.BackColor = System.Drawing.Color.White;
+            this.pregu.Font = new System.Drawing.Font("Roboto", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pregu.Location = new System.Drawing.Point(393, 181);
+            this.pregu.Name = "pregu";
+            this.pregu.Size = new System.Drawing.Size(588, 39);
+            this.pregu.TabIndex = 80;
+            this.pregu.Text = "En tu cumpleaños, ¿Que te gusta mas?";
+            this.pregu.Click += new System.EventHandler(this.label31_Click);
+            // 
+            // img1
+            // 
+            this.img1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.img1.Image = global::SmarTec.Properties.Resources.ba;
+            this.img1.Location = new System.Drawing.Point(0, 0);
+            this.img1.Name = "img1";
+            this.img1.Size = new System.Drawing.Size(1354, 763);
+            this.img1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.img1.TabIndex = 79;
+            this.img1.TabStop = false;
+            this.img1.Click += new System.EventHandler(this.pictureBox8_Click);
             // 
             // radioButton19
             // 
@@ -437,6 +449,17 @@
             this.label27.TabIndex = 72;
             this.label27.Text = "¿Que te gusta mas?";
             // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox7.Image = global::SmarTec.Properties.Resources.ba;
+            this.pictureBox7.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(1354, 763);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox7.TabIndex = 71;
+            this.pictureBox7.TabStop = false;
+            // 
             // radioButton16
             // 
             this.radioButton16.AutoSize = true;
@@ -525,6 +548,17 @@
             this.label23.Size = new System.Drawing.Size(370, 39);
             this.label23.TabIndex = 64;
             this.label23.Text = "¿Que regalos prefieres?";
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox6.Image = global::SmarTec.Properties.Resources.ba;
+            this.pictureBox6.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(1354, 763);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 63;
+            this.pictureBox6.TabStop = false;
             // 
             // radioButton13
             // 
@@ -615,6 +649,17 @@
             this.label19.TabIndex = 56;
             this.label19.Text = "¿Que te gusta hacer en la escuela?";
             // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox5.Image = global::SmarTec.Properties.Resources.ba;
+            this.pictureBox5.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(1354, 763);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 55;
+            this.pictureBox5.TabStop = false;
+            // 
             // radioButton10
             // 
             this.radioButton10.AutoSize = true;
@@ -703,6 +748,17 @@
             this.label15.Size = new System.Drawing.Size(561, 39);
             this.label15.TabIndex = 48;
             this.label15.Text = "Si tuvieras dinero, ¿Que comprarias?";
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox4.Image = global::SmarTec.Properties.Resources.ba;
+            this.pictureBox4.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(1354, 763);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox4.TabIndex = 47;
+            this.pictureBox4.TabStop = false;
             // 
             // radioButton7
             // 
@@ -793,6 +849,17 @@
             this.label11.TabIndex = 40;
             this.label11.Text = "Cuando estas con tus amigos, ¿te gusta?";
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox3.Image = global::SmarTec.Properties.Resources.ba;
+            this.pictureBox3.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(1354, 763);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 39;
+            this.pictureBox3.TabStop = false;
+            // 
             // radioButton4
             // 
             this.radioButton4.AutoSize = true;
@@ -881,6 +948,17 @@
             this.label7.Size = new System.Drawing.Size(606, 39);
             this.label7.TabIndex = 32;
             this.label7.Text = "Cuando tus papás no te consienten ¿tu?";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox2.Image = global::SmarTec.Properties.Resources.ba;
+            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(1354, 763);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 31;
+            this.pictureBox2.TabStop = false;
             // 
             // radioButton3
             // 
@@ -971,84 +1049,6 @@
             this.label1.TabIndex = 24;
             this.label1.Text = "Cuando sales de paseo, ¿Tu que prefieres?";
             // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox8.Image = global::SmarTec.Properties.Resources.ba;
-            this.pictureBox8.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(1354, 763);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox8.TabIndex = 79;
-            this.pictureBox8.TabStop = false;
-            this.pictureBox8.Click += new System.EventHandler(this.pictureBox8_Click);
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox7.Image = global::SmarTec.Properties.Resources.ba;
-            this.pictureBox7.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(1354, 763);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox7.TabIndex = 71;
-            this.pictureBox7.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox6.Image = global::SmarTec.Properties.Resources.ba;
-            this.pictureBox6.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(1354, 763);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 63;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox5.Image = global::SmarTec.Properties.Resources.ba;
-            this.pictureBox5.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(1354, 763);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 55;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox4.Image = global::SmarTec.Properties.Resources.ba;
-            this.pictureBox4.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(1354, 763);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 47;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox3.Image = global::SmarTec.Properties.Resources.ba;
-            this.pictureBox3.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(1354, 763);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 39;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox2.Image = global::SmarTec.Properties.Resources.ba;
-            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(1354, 763);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 31;
-            this.pictureBox2.TabStop = false;
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -1086,7 +1086,7 @@
             this.panelT2.PerformLayout();
             this.panelT1.ResumeLayout(false);
             this.panelT1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.img1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
@@ -1164,13 +1164,13 @@
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.Panel panelT1;
-        private System.Windows.Forms.RadioButton radioButton22;
-        private System.Windows.Forms.RadioButton radioButton23;
-        private System.Windows.Forms.RadioButton radioButton24;
-        private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.RadioButton r3;
+        private System.Windows.Forms.RadioButton r2;
+        private System.Windows.Forms.RadioButton r1;
+        private System.Windows.Forms.Label btn_next;
+        private System.Windows.Forms.Label indi;
+        private System.Windows.Forms.Label wel;
+        private System.Windows.Forms.Label pregu;
+        private System.Windows.Forms.PictureBox img1;
     }
 }

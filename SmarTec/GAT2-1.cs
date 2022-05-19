@@ -22,7 +22,7 @@ namespace SmarTec
             if (leer.Text == "EL ABUELO ESTA VIEJO" | leer.Text == "el abuelo esta viejo" | leer.Text == "El abuelo esta viejo")
             {
                 MessageBox.Show("¡Perfecto! \n¡Has terminado todas tus lecciones! :)", "Confirmacion", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-
+                this.Close();
             }
             else
             {

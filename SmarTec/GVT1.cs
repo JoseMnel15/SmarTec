@@ -22,6 +22,7 @@ namespace SmarTec
             if (btn_correc3.Checked)
             {
                 MessageBox.Show("¡Perfecto! \n¡Has terminado todas tus lecciones! :)", "Confirmacion", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                this.Close();
             }
             else
             {

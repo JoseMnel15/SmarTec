@@ -22,7 +22,7 @@ namespace SmarTec
             if (radioButton2.Checked)
             {
                 MessageBox.Show("¡Perfecto! \n¡Has terminado todas tus lecciones! :)", "Confirmacion", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-
+                this.Close();
             }
             else
             {
@@ -48,7 +48,7 @@ namespace SmarTec
 
         private void label7_Click(object sender, EventArgs e)
         {
-            if (radioButton9.Checked)
+            if (r13.Checked)
             {
                 MessageBox.Show("¡Muy bien! Buen trabajo! :)", "Confirmacion", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 panelGVT23.Visible = false;

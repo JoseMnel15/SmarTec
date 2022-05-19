@@ -22,6 +22,7 @@ namespace SmarTec
             if (quesad.Text == "Quesadilla" | quesad.Text == "QUESADILLA" | quesad.Text == "quesadilla")
             {
                 MessageBox.Show("¡Perfecto! \n¡Has terminado todas tus lecciones! :)", "Confirmacion", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                this.Close();
             }
             else
             {
@@ -46,7 +47,7 @@ namespace SmarTec
 
         private void label7_Click(object sender, EventArgs e)
         {
-            if (radioButton5.Checked)
+            if (dog.Checked)
             {
                 MessageBox.Show("¡Muy bien! Buen trabajo! :)", "Confirmacion", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
                 panelGAT3.Visible = false;

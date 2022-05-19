@@ -188,19 +188,19 @@ namespace SmarTec
 
         private void label28_Click(object sender, EventArgs e)
         {
-            if (radioButton24.Checked)
+            if (r1.Checked)
             {
                 op.vcon++;
                 panelT1.Visible = false;
                 panelT2.Visible = true;
             }
-            if (radioButton23.Checked)
+            if (r2.Checked)
             {
                 op.acon++;
                 panelT1.Visible = false;
                 panelT2.Visible = true;
             }
-            if (radioButton22.Checked)
+            if (r3.Checked)
             {
                 op.kcon++;
                 panelT1.Visible = false;
